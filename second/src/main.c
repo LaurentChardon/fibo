@@ -6,10 +6,14 @@
 
 #include <stdio.h>
 
+void fibo(int);
+
 int main(int argc, char **argv)
 {
-	printf("Hello, world!\n");
-	printf("It's nice to be back :)\n");
-    printf("Soon to come: a completely new functionality!\n");
+	int order = 10;
+
+	printf("Calculating Fibonacci sequence of order %i\n", order);
+	fibo(order);
+
 	return 0;
 }
