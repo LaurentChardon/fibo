@@ -10,7 +10,7 @@ void fibo(int);
 
 int main(int argc, char **argv)
 {
-	int order = 10;
+	int order = 100;
 
 	printf("Calculating Fibonacci sequence of order %i\n", order);
 	fibo(order);

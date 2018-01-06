@@ -4,4 +4,4 @@ README.md
 
 This is the README for the project. 
 
-I should be able to include git info in here I guess.
+This was a test of Eclipse in C with git
